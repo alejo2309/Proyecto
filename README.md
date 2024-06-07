@@ -4,15 +4,23 @@
 
 # Integrantes 
 
-• Brizuela
+• Brizuela - DBA
 
-• Capaldo
+• Capaldo - PM
 
-• Chavez
+• Chavez - DISEÑADOR
 
-• Gaspar
+• Gaspar - TESTER
 
-• Hornos
+• Hornos - DEVELOP
+
+# SPRINT 2 
+
+* Login funcional 
+* DBA del login 
+* registro funcioal
+* recuperar contraseña 
+
 
 Correccion de las issues:
 
