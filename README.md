@@ -14,12 +14,13 @@
 
 • Hornos - DEVELOP
 
-# SPRINT 2 
 
-* Login funcional 
-* DBA del login 
-* registro funcioal
-* recuperar contraseña 
+# SPRINT 3
+
+*pagina de producto
+*listado de producto
+*pagina reutilizable
+
 
 
 Correccion de las issues:
@@ -28,3 +29,6 @@ Correccion de las issues:
 * Cuando hablan de filtros estaria bueno especificar cuales
 * Lo de la API de mercado pago, no vamos a trabajar con dinero real por las dudas lo aclaro
 * Las tareas de diseño las repartiria en distintas tareas 
+
+
+
