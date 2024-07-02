@@ -18,8 +18,8 @@
 # SPRINT 3
 
 *pagina de producto
-*listado de producto
-*pagina reutilizable
+ESTA CONTENDRA IMAGEN DEL PRODUCTO CON UNA DESCRIPCION Y SU PRECIO 
+BOTON PARA COMPRARLO AHORA O AGRAGARLO AL CARRITO
 
 
 
