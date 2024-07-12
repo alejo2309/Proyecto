@@ -20,7 +20,7 @@
 *pagina de producto
 
 ESTA CONTENDRA IMAGEN DEL PRODUCTO CON UNA DESCRIPCION Y SU PRECIO 
-BOTON PARA COMPRARLO AHORA O AGRAGARLO AL CARRITO
+BOTON PARA AGRAGARLO AL CARRITO
 
 *boton interactivo de carrito(este deja entra, seleccionar productos de compra y quitarlos de esta lista, unicamente faltaria que vaya agregando los precios de los productos al carrito y haga la cuenta)
 
