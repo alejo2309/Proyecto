@@ -6,24 +6,18 @@
 
 • Brizuela - DBA
 
-• Capaldo - PM
-
-• Chavez - DISEÑADOR
-
-• Gaspar - TESTER
+• Capaldo - PM - DISEÑADOR - TESTER
 
 • Hornos - DEVELOP
 
 
-# SPRINT 3
+# SPRINT 4
 
-*pagina con productos
+*Pagina / vista del vendedor
 
-ESTA CONTENDRA IMAGENES DE LOS PRODUCTOS CON UNA DESCRIPCION(SU NOMBRE POR EL MOMENTO) Y SU PRECIO 
+ESTA CONTENDRA UN LUGAR DONDE PODER PUBLICAR LAS IMAGENES QUE EL VENDECDOR DESEE VENDER
 
-BOTON PARA AGRAGARLO AL CARRITO
-
-*boton interactivo de carrito(este deja entra, mirar los productos de compra y quitarlos de esta lista, unicamente faltaria que vaya agregando los precios de los productos al carrito y haga la cuenta)
+UN APARTADO DONDE COLOCAR TITULO, DESCRIPCION, PRECIO DEL PRODUCTO Y CATEGORIA DE ESE MISMO PRODUCTO + UN BOTON QUE INDIQUE LA OPCION DE PUBLICAR EL PRODUCTO
 
 
 Correccion de las issues:
