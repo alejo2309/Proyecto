@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - AbajoVa</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="cartScript.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu" style="color: white; font-size: 24px; cursor: pointer;">☰</label>
+            </div>
+            
+            <div class="logo">
+
+                <a href="index.html"><img src="logo.png" alt="Logo"></a>
+
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar productos">
+            </div>
+        <div class="menu">
+            <a href="index.html"><button class="boton-nav">Inicio</button></a>
+            <a href="listado.html"><button class="boton-nav">Productos</button></a>
+            <a href="login.html"><button class="boton-nav">Login</button></a>
+            <a href="cart.html"></a>
+        </div>
+    </header>
+    <main>
+        <h2>Carrito de Compras</h2>
+        <button class="boton" onclick="clearCart()">Vaciar Carrito</button>
+        <div id="cart-container" class="product-grid">
+            <!-- Los productos del carrito se insertarán aquí dinámicamente -->
+        </div>
+        <div id="cart-total-container">
+            <p>Total: <span id="cart-total">$0.00</span></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 AbajoVa. Todos los derechos reservados.</p>
+    </footer>
+    <div class="capa"></div>
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="#">Portafolio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Suscribirse</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="#">Crea tu publicación<img src="mas.png" alt="logoText" class="logoText"></a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+    <script src="cartScript.js" defer></script>
+</body>
+</html>
