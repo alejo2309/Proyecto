@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalización de Compra</title>
+    <link rel="stylesheet" href="compra.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finalización de Compra</h1>
+        
+        <div class="product">
+            <h2>Producto: Camiseta</h2>
+            <p>Precio: $20.00</p>
+        </div>
+
+        <form id="checkout-form">
+            <label for="nomYape">Nombre y Apellido:</label>
+            <input type="text" id="nomYape" required>
+            <label for="Telefono">Telefono:</label>
+            <input type="text" id="Telefono" required>
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" required>
+
+            <label for="payment-method">Método de Pago:</label>
+            <select id="payment-method" required>
+                <option value="" disabled selected>Selecciona un método</option>
+                <option value="credit-card">Tarjeta de Crédito</option>
+                <option value="paypal">PayPal</option>
+                <option value="mercado-pago">Mercado Pago</option>
+            </select>
+
+            <button type="submit">Aceptar Compra</button>
+        </form>
+
+        <div id="message" class="hidden"></div>
+    </div>
+
+    <script src="compra.js"></script>
+</body>
+</html>
