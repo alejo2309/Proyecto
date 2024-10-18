@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar Producto</title>
+    <link rel="stylesheet" href="paginaVendedor.css">
+</head>
+
+<body>
+    <header class="header"></header>
+        <div class="container1">
+            <div class="btn-menu">
+                <a href="index.html"><img src="arrow.png" alt="logoText" class="logoText"></a>
+            </div>
+        </header>
+
+    <div class="container">
+
+        <h1>Publicar Producto</h1>
+        
+        <label for="seleccion">Selecciona tu categoria:</label>
+            <select id="seleccion" required>
+                <option value="" disabled selected>Selecciona una categoria</option>
+                <option value="credit-card">Merceria</option>
+                <option value="paypal">Agro</option>
+                <option value="mercado-pago">Alimentos y Bebidas</option>
+                <option value="paypal">Autopartes</option>
+                <option value="paypal">Tecnologia</option>
+                <option value="paypal">Muebles</option>
+                <option value="paypal">Herramientas y Materiales</option>
+                <option value="paypal">Salud y Equipamiento medico</option>
+            </select>
+
+        <form id="productForm" method="post" action="uploadProduct.php">
+            <label for="title">Título del Producto:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Descripción:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="price">Precio:</label>
+            <input type="number" id="price" name="price" step="0.01" required>
+
+            <p for="image">Imagen del Producto (Archivo):</p>
+            <input class="buttFile" type="file" name="image" accept="image/*" required>
+
+            <div class="boton1">
+                <a href="index.html"><button type="submit" class="boton">Publicar</button></a>
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="paginaVendedor0.js"></script>
+</body>
+</html>

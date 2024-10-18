@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="listado.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <input type="checkbox" id="btn-menu" style="display: none;">
+    <header class="header">
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu" style="color: white; font-size: 24px; cursor: pointer;">☰</label>
+            </div>
+        <div >
+            <a href="index.html"><img class="logo" src="logo.png" alt="Logo"></a>    
+        </div>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos">
+        </div>
+        <div class="menu">
+            <a href="index.html"><button class="boton-nav">Inicio</button></a>
+            <a href="listado.html"><button class="boton-nav">Productos</button></a>
+            <a href="login.html"><button class="boton-nav">Login</button></a>
+            <a href="cart.html"><span class="material-symbols-outlined">shopping_cart</span></a>
+        </div>
+        <div class="user">
+            <div class="dropdown2">
+                <span><img class="usuario" src="account.png" alt=""></span>
+                <div class="dropdown-content2">
+                    <div class="edit">
+                        <button id="ampliar-usuario"><img src="account.png"></button>
+                    </div>
+                    <p>Usuario</p>
+                    <p>usuario@gmail.com</p>
+                    <button onclick="location.href='../Login y resgistrarse/Login.html'">Cerrar sesión</button>
+                </div>
+            </div> 
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <div class="filtros">
+                    <h2>Filtrar por Categoría</h2>
+                    <ul class="category_item">
+                        <li><a href="#" class="filter" category="merceria">Mercería</a></li>
+                        <li><a href="#" class="filter" category="agro">Agro</a></li>
+                        <li><a href="#" class="filter" category="alimentos">Alimentos y Bebidas</a></li>
+                        <li><a href="#" class="filter" category="autopartes">Autopartes</a></li>
+                        <li><a href="#" class="filter" category="tecnologia">Tecnología</a></li>
+                        <li><a href="#" class="filter" category="muebles">Muebles</a></li>
+                        <li><a href="#" class="filter" category="herramientas">Herramientas y Materiales</a></li>
+                        <li><a href="#" class="filter" category="salud">Salud y Equipamiento Médico</a></li>
+                </div>
+                <section class="products-list">
+                    <div class="product-item" category="laptops">
+                        <img src="images/laptop_hp.jpg" alt="" >
+                        <a href="#">Laptop Hp</a>
+                    </div>
+                    <div class="product-item" category="laptops">
+                        <img src="images/laptop_toshiba.jpg" alt="" >
+                        <a href="#">Laptop Toshiba</a>
+                    </div>
+                    <div class="product-item" category="smartphones">
+                        <img src="images/samsung_galaxy.jpg" alt="" >
+                        <a href="#">Samsung Galaxy</a>
+                    </div>
+                    <div class="product-item" category="smartphones">
+                        <img src="images/iphone.jpg" alt="" >
+                        <a href="#">Iphone 7</a>
+                    </div>
+                    <div class="product-item" category="ordenadores">
+                        <img src="images/pc_hp.jpg" alt="" >
+                        <a href="#">PC Hp</a>
+                    </div>
+                    <div class="product-item" category="ordenadores">
+                        <img src="images/pc_lenovo.jpg" alt="" >
+                        <a href="#">PC Lenovo</a>
+                    </div>
+                    <div class="product-item" category="monitores">
+                        <img src="images/monitor_asus.jpg" alt="" >
+                        <a href="#">Monitor Asus</a>
+                    </div>
+                    <div class="product-item" category="audifonos">
+                        <img src="images/jbl.jpg" alt="" >
+                        <a href="#">Audifonos JBL</a>
+                    </div>
+                </section>
+            </nav>
+        </aside>
+        <section id="productos">
+            <h2>Genéricos</h2>
+            <div id="product-container" class="product-grid">
+                <!-- Los productos se insertarán aquí dinámicamente -->
+            </div>
+        </section>
+    </main>
+    <div class="capa"></div>
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="#">Portafolio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Suscribirse</a>
+                <a href="#">Facebook</a>
+                <a href="#">Youtube</a>
+                <a href="paginaVendedor.html">Crea tu publicación<img src="mas.png" alt="logoText" class="logoText"></a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
