@@ -40,9 +40,49 @@ header {
 }
 
 .logo img {
+    margin-top: 10px;
     height: 100px;
 }
 
+
+.dropdown-idioma {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-idioma img {
+    width: 50px; /* Ajusta para que sea del mismo tamaño que account.png */
+    height: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.dropdown-content-idioma {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #df7304;
+    min-width: 100px;
+    z-index: 1;
+    text-align: center;
+    left: -35px;
+}
+
+.dropdown-content-idioma a {
+    color: #df7304;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-idioma a:hover {
+    background-color: #df7304;
+    color: white;
+}
+
+.dropdown-idioma:hover .dropdown-content-idioma {
+    display: block;
+}
 .search-bar {
     flex: 2; /* Permite que la barra de búsqueda se expanda en el centro */
     display: flex;
@@ -57,6 +97,7 @@ header {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    margin-right: 40px;
 }
 
 .menu {
