@@ -29,8 +29,48 @@ a {
 .logo{
     height: 100px;
     flex: 1;
+    margin-top: 10px;
 }
 
+
+.dropdown-idioma {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-idioma img {
+    width: 50px; /* Ajusta para que sea del mismo tamaño que account.png */
+    height: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.dropdown-content-idioma {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: #df7304;
+    min-width: 100px;
+    z-index: 1;
+    text-align: center;
+    left: -28px;
+}
+
+.dropdown-content-idioma a {
+    color: #df7304;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-idioma a:hover {
+    background-color: #df7304;
+    color: white;
+}
+
+.dropdown-idioma:hover .dropdown-content-idioma {
+    display: block;
+}
 .menu {
     display: flex;
     align-items: center;
@@ -246,6 +286,7 @@ section {
 }
 
 .logoText{
+    margin-top: 30px;
     width:20px ;
     height: 20px;
     margin-left: 10px;

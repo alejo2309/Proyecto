@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Product</title>
+    <link rel="stylesheet" href="paginaVendedor.css">
+</head>
+
+<body>
+    <header class="header"></header>
+        <div class="container1">
+            <div class="btn-menu">
+                <a href="index2.html"><img src="arrow.png" alt="logoText" class="logoText"></a>
+            </div>
+        </header>
+
+    <div class="container">
+
+        <h1>Post Product</h1>
+        
+        <label for="seleccion">Select your category:</label>
+            <select id="seleccion" required>
+                <option value="" disabled selected>Select a category</option>
+                <option value="credit-card">Sewing Supplies</option>
+                <option value="paypal">Agriculture</option>
+                <option value="mercado-pago">Food and Beverages</option>
+                <option value="paypal">Auto Parts</option>
+                <option value="paypal">Technology</option>
+                <option value="paypal">Furniture</option>
+                <option value="paypal">Tools and Materials</option>
+                <option value="paypal">Health and Medical Equipment</option>
+            </select>
+
+        <form id="productForm" method="post" action="process.php">
+            <label for="title">Product Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" step="0.01" required>
+
+            <label for="image">Product Image (Archivo):</label>
+            <input class="buttFile" type="file" name="image" accept="image/*" required>
+        </form>
+        <div class="boton1">
+            <button type="submit" class="boton">Post</button>
+        </div>
+        
+        <div id="message"></div>
+    </div>
+
+    <script src="paginaVendedor0.js"></script>
+</body>
+</html>

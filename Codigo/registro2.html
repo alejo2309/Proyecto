@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your account</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="logo">
+
+        <a href="index2.html"><img src="logo.png" alt="Logo"></a>
+
+    </div>
+    <div class="login-container">
+        <form action="registro.php" method="POST" class="login-form">
+            <h2>Create your account</h2>
+            <div class="form-group">
+                <label for="nombre">First Name:</label>
+                <input type="text" id="nombre" placeholder="Enter your first name" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Last Name:</label>
+                <input type="text" id="apellido" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Phone Number:</label>
+                <input type="text" id="telefono" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="contraseña">Password:</label>
+                <input type="text" id="contraseña" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p class="form-footer">¿Already have an account? <a href="login.html">Log in here</a></p>
+        </form>
+    </div>
+</body>
+</html>
